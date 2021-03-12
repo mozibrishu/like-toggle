@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.like-btn{
+  height: 600px;
+  position: relative;
+}
+.thumb-up{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .App-logo {
   height: 40vmin;

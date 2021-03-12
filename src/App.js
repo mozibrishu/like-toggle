@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="like-btn">
+      <ThumbUpIcon className="thumb-up" style={{fontSize:'180px'}}></ThumbUpIcon>
+      </div>
     </div>
   );
 }
